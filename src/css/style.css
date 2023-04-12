@@ -3,6 +3,7 @@
 
 
 :root {
+
     --Full-Slider-Bar: hsl(174, 77%, 80%);
     --Slider-Backround: hsl(174, 86%, 45%);
     --Discount-Background: hsl(14, 92%, 95%);
@@ -14,15 +15,17 @@
     --Empty-Slider-Bar: hsl(224, 65%, 95%);
     --Toggle-Background: hsl(223, 50%, 87%);
     --Grayish-Blue-Text: hsl(225, 20%, 60%);
-    --Text-&-CTA-Background: hsl(227, 35%, 25%);
+    --Text-e-CTA-Background: hsl(227, 35%, 25%);
     
-    --Font-size(Introductory Paragraph): 15px
+    --Font-size-Introductory-Paragraph: 15px;
     
     --Manrope: 'Manrope', sans-serif;
 
     --Semi-Negrito: 600;
     --Extra-Bold: 800;
 }
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
