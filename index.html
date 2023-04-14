@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./src/css/style.css">
   
   <title>Frontend Mentor | Interactive pricing component</title>
 
@@ -12,51 +14,61 @@
  
 </head>
 <body>
-  <main>
-    <section>
-      <h1>
+
+  <header>
+      <h2 class="cabecalho_titulo">
       Simple, traffic-based pricing
-      </h1>
+      </h2>
     <p> 
     Sign-up for our 30-day trial. No credit card required.
     </p>
-    </section>
-    
-    <div class="container">
-      <div>
-        <p> Pageviews</p>
-        <p class="preco" id="variacaoPreco"> $</p>
-        <p> /month</p>
-        <d>
+  </header>
+
+  <main>
+
+    <form class="pricing-card" action="">
+
+        <div>
+          <p> 100k PAGEVIEWS</p>
+          <p class="preco" id="variacaoPreco"> $</p>
+          <p> /month</p>
+          <d>
+          
+        <input type="range" name="range" min="1" max="5" step="1" value="3" class="myrange" >
+
+        <div class="pricing-card__price-container">
+
+          <p>
+            16.00</p>
+
+          <p>
+          Monthly Billing</p>
+
+          <div class="switch">
+            <input type="checkbox" name="option" id="option" />
+            <label for="option">Yearly Billing<span>25% discount</span></label>
+        </div>
+       
+          <p>Yearly Billing <span>25% discount/</span></p>
+          
+        </div>  
+  
+        <div>
+          <ul>
+            <li><a href=""><img src="/src/images/icon-check.svg">websites</a></li>
+            <li><a href=""><img src="/src/images/icon-check.svg">100% data ownership</a></li>
+            <li><a href=""><img src="/src/images/icon-check.svg">Email reports</a></li>
+          </ul>
+  
+          <button> Start my trial</button>
+        </div>
+  
       </div>
 
-      <button>
-        <img src="./src/images/icon-slider.svg" alt="barra de rolamento do preço">
-      </button>  
-        
-      <div>
-        <p>
-        Monthly Billing</p>
-        <div class="switch">
-          <input type="checkbox" name="option" id="option" />
-          <label for="option">Yearly Billing<span>25% discount</span></label>
-      </div>
-     
-        <p>Yearly Billing <span>25% discount/</span></p>
-        
-      </div>  
-
-      <div>
-        <ul>
-          <li><a href=""><img src="/src/images/icon-check.svg">websites</a></li>
-          <li><a href=""><img src="/src/images/icon-check.svg">100% data ownership</a></li>
-          <li><a href=""><img src="/src/images/icon-check.svg">Email reports</a></li>
-        </ul>
-
-        <button> Start my trial</button>
-
-      </div>
     </div>
+   
+    </form>
+      
   </main>
 
   

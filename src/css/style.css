@@ -25,6 +25,41 @@
     --Extra-Bold: 800;
 }
 
+/*========== Reset========== */
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+/*========== Style========== */ 
+
+body {
+    background-color: var(--Main-Background);
+    font-family: var(--Manrope);
+    display: grid;
+    justify-items: center;
+}
+header {
+    background-image: url(../images/bg-pattern.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: auto;
+}
+.cabecalho {
+    background-image: url(../images/pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    justify-items: center;
+    margin: 0 15%;
+    padding: 10%;
+}
+.container {
+  position: relative;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
